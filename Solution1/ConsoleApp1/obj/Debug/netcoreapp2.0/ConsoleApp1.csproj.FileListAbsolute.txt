@@ -8,3 +8,14 @@
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.AssemblyInfo.cs
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.dll
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.pdb
+D:\Home_Work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+D:\Home_Work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+D:\Home_Work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+D:\Home_Work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+D:\Home_Work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojAssemblyReference.cache
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+D:\Home_Work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
