@@ -8,3 +8,17 @@
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.AssemblyInfo.cs
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.dll
 /Users/a.fursov/Workspace/home_work/Solution1/ConsoleApp1/obj/Debug/netcoreapp2.0/ConsoleApp1.pdb
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.deps.json
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.json
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.dll
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\ConsoleApp1.pdb
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.dll
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\obj\Debug\netcoreapp2.0\ConsoleApp1.pdb
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\pixonic\Documents\GitHub\home_work\Solution1\ConsoleApp1\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll

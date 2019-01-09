@@ -1,10 +1,12 @@
 ﻿using System;
+using NUnit.Framework;
 
 namespace ConsoleApp1
 {
-    class MathActions
+    public class MathActions
     {
-        public static void Main()
+        
+        public static void tratata()
         {
             var rectTringle = new RectangularTriangle();
             var equalTriangle = new EqualSidesTriangle();
@@ -23,17 +25,17 @@ namespace ConsoleApp1
             //Console.WriteLine("Regular triangle median size: " + MedianSizeCalculation(regularTriangle.Type, regularTriangle.SideA));
         }
 
-        private static double SidesSum(double a, double b, double c)
+        public static double SidesSum(double a, double b, double c)
         {
             return a + b + c;
         }
 
-        private static double AnglesSum(double a, double b, double c)
+        public static double AnglesSum(double a, double b, double c)
         {
             return a + b + c;
         }
 
-        private static double MedianSizeCalculation(string type, double side)
+        public static double MedianSizeCalculation(string type, double side)
         {
             if (type != "equalSides")
             {

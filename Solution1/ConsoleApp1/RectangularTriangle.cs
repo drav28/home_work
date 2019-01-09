@@ -32,4 +32,5 @@ namespace ConsoleApp1
             return Math.Sqrt(sideA * sideA + sideB * sideB);
         }
     }
+
 }
