@@ -1,53 +1,63 @@
-using System;
 using NUnit.Framework;
 using ConsoleApp1;
+using System;
 
-
-    [TestFixture]
-    class SideSumeTest
+    class ConsoleAppTest
     {
-        [TestCase(1,1,1,3)]
-        [TestCase(2,2,-2,2)]
-        [TestCase(2,2,0,4)]
-        [TestCase(0.2,0.2,0.5,0.9)]
-        public void Side_Sume_Test (double a, double b, double c, double d)
-        {
-            var result = MathActions.SidesSum (a,b,c);
-            Assert.That (d, Is.EqualTo(result));
-        }
-    }
+        RegularTriangle  regularTriangletest = new RegularTriangle();
+        RectangularTriangle rectangularTriangletest = new RectangularTriangle();
+        EqualSidesTriangle equalSidesTriangletest = new EqualSidesTriangle();
 
-    class MedianaSizeCalculationTest_TypeRegular
-    {
-        [TestCase("equalSides",3,2.598076211353316d)]
-        [TestCase("equalSides",-2,-1.7320508075688772d)]
-        [TestCase("equalSides",0,0)]
-        public void MedianaSizeCalculation_TypeEqualRegular(string type, double side, double d)
-        {
-            var result = MathActions.MedianSizeCalculation(type,side);
-            Assert.That (d, Is.EqualTo(result));
-        }
-    }
-
-    //[Ignore("TestIgnor")]
-    class MedianaSizeCalculationTest_TypeNotRegular
-    {
         [Test]
-        public void MedianaSizeCalculation_TypeNotEqualRegular()
+        public void Angles_Sum_Test_RectangularTriangle()
         {
-              Assert.That(()=> MathActions.MedianSizeCalculation("tra",4), Throws.TypeOf<Exception>().With.Message.EqualTo("The triangle is not EqualSide"));   
+            Assert.That(MathActions.AnglesSum(rectangularTriangletest.AngleA,rectangularTriangletest.AngleB,rectangularTriangletest.AngleC),Is.LessThanOrEqualTo(180)); 
         }
-    }
 
-    class AnglesSumTest
-    {
-        [TestCase(1,1,1,3)]
-        [TestCase(-1,-1,-1,-3)]
-        [TestCase(1,1,0.2,2.2)]
-        [TestCase(1,1,0,2)]
-        public void Angles_Sum_test(double a, double b, double c, double d)
+        [Test]
+        public void Angles_Sum_Test_EqualSidesTriangle()
         {
-            var result = MathActions.AnglesSum(a,b,c);
-            Assert.That (d,Is.EqualTo(result));
+            Assert.That(MathActions.AnglesSum(equalSidesTriangletest.AngleA,equalSidesTriangletest.AngleB,equalSidesTriangletest.AngleC),Is.LessThanOrEqualTo(180));
+        }
+
+        [Test]
+        public void Angles_Sum_Test_RegularTriangle()
+        {
+            Assert.That(MathActions.AnglesSum(regularTriangletest.AngleA,regularTriangletest.AngleB,regularTriangletest.AngleC),Is.LessThanOrEqualTo(180));
+            
+        }
+
+        [Test]
+        public void SidesSum_RectangularTriangle()
+        {
+            Assert.That(MathActions.AnglesSum(rectangularTriangletest.SideA,rectangularTriangletest.SideB,rectangularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+        }
+
+        [Test]
+        public void SidesSum_RegularTriangle()
+        {
+            Assert.That(MathActions.AnglesSum(regularTriangletest.SideA,regularTriangletest.SideB,regularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+        }
+        [Test]
+        public void SidesSum_EqualSidesTriangle()
+        {
+            Assert.That(MathActions.AnglesSum(equalSidesTriangletest.SideA,equalSidesTriangletest.SideB,equalSidesTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+        }
+
+        [Test]
+        public void MedianSizeCalculation_RegularTriangle()
+        {
+            Assert.That(()=>MathActions.MedianSizeCalculation(regularTriangletest.Type,regularTriangletest.SideC),Throws.TypeOf<System.Exception>().With.Message.EqualTo("The triangle is not EqualSide"));
+        }
+        [Test]
+        public void MedianSizeCalculation_RectangularTriangle()
+        {
+            Assert.That(()=>MathActions.MedianSizeCalculation(rectangularTriangletest.Type,rectangularTriangletest.SideC),Throws.TypeOf<System.Exception>().With.Message.EqualTo("The triangle is not EqualSide"));
+        }
+
+        [Test]
+        public void MedianSizeCalculation_EqualSidesTriangle()
+        {
+            Assert.That(MathActions.MedianSizeCalculation(equalSidesTriangletest.Type,equalSidesTriangletest.SideC),Is.EqualTo((equalSidesTriangletest.SideC * Math.Sqrt(3)) / 2));
         }
     }
