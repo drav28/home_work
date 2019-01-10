@@ -30,18 +30,18 @@ using System;
         [Test]
         public void SidesSum_RectangularTriangle()
         {
-            Assert.That(MathActions.AnglesSum(rectangularTriangletest.SideA,rectangularTriangletest.SideB,rectangularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+            Assert.That(MathActions.SidesSum(rectangularTriangletest.SideA,rectangularTriangletest.SideB,rectangularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
         }
 
         [Test]
         public void SidesSum_RegularTriangle()
         {
-            Assert.That(MathActions.AnglesSum(regularTriangletest.SideA,regularTriangletest.SideB,regularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+            Assert.That(MathActions.SidesSum(regularTriangletest.SideA,regularTriangletest.SideB,regularTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
         }
         [Test]
         public void SidesSum_EqualSidesTriangle()
         {
-            Assert.That(MathActions.AnglesSum(equalSidesTriangletest.SideA,equalSidesTriangletest.SideB,equalSidesTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
+            Assert.That(MathActions.SidesSum(equalSidesTriangletest.SideA,equalSidesTriangletest.SideB,equalSidesTriangletest.SideC),Is.EqualTo(rectangularTriangletest.SideA+rectangularTriangletest.SideB+rectangularTriangletest.SideC));
         }
 
         [Test]
